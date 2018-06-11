@@ -1,0 +1,39 @@
+body{
+  background-color: black;
+  -webkit-user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  #dobbelstenen:focus {
+    outline: none;
+  }
+
+  #dobbelstenen{
+    #repeatCount{
+      color: white;;
+      font-size: 200%;
+      font-family: sans-serif;
+    }
+    #dobbelsteen{
+
+    }
+  }
+
+  #button{
+    border-radius: 10px;
+    padding: 5% 0;
+    margin: 10%;
+    width: 30%;
+    height: 30%;
+    background-color: #2aabd2;
+    color: #0f0f0f;
+    text-align: center;
+    font-size: 200%;
+    font-family: sans-serif;
+  }
+
+  #button:active{
+    background-color: #1b6d85;
+  }
+}
